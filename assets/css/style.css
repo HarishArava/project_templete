@@ -1,66 +1,91 @@
 body {
-	font-family: Arial, serif;
+    font-family: Arial, serif;
 }
 
-.nav1{
-	margin: 0;
-	background-color: black;
-	padding: 0 5px;
-	overflow: hidden;
-	padding-right: 20%;
+.nav1 {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+    padding: 5px 20% 5px 5px;
 }
 
 a {
-	color: white;
-	text-align: center;
-	float: right;
-	 text-decoration: none;
-	 display: block;
-	 padding: 15px 15px 15px 15px;
+    color: white;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
 }
 
-.nav1-a { 
-	padding: 5px 15px;
-	font-size: 15px;
-
+.nav1-a {
+    padding: 3px 15px 3px 15px;
+    font-size: 15px;
 }
 
-.logo-header{
-	margin-left: 30%;
-	margin-right: 30%;
-
+.logo-header {
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .main-header {
-	margin: 0 auto;
-	width: 80%;
+    margin: 0 auto;
+    width: 80%;
 }
 
-.nav2{
-	background-color: black;
-	padding-top: 0;
-	overflow: hidden;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0 auto;
-	display: inline-block;
-	width: 100%;
+.nav2 {
+    background-color: black;
+    padding-top: 0;
+    overflow: hidden;
+    padding-right: 16%;
+    padding-left: 16%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
 }
 
 .active {
-	background-color: limegreen;
+    background-color: limegreen;
 }
 
 .hover-color:hover {
-	background-color: limegreen;
+    background-color: limegreen;
 }
 
 .nav1-margin-last{
-margin-right:15%;
+    margin-right:15%;
 }
 
 .nav1-margin-first{
-margin-left:15%;
+    margin-left:15%;
+}
+
+.green-background{
+    background-image: url("../img/background.png");
+    color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+    height: 310px;
+    padding: 20px 100px 80px;
+}
+
+.text-green-background{
+    float: left;
+    width: 60%;
+    font-size: 20px;
+}
+
+.green-background img{
+    height: 328px;
+    width: 421px;
+    z-index: 99;
+    display: block;
+    padding-left: 30px;
+}
+
+.main-section{
+    clear: both;
 }
 
 footer {
@@ -89,4 +114,3 @@ footer {
     clear: both;
     display: table;
 }
-
