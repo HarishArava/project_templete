@@ -54,7 +54,7 @@ a {
     background-color: limegreen;
 }
 
-.hover-color:hover {
+a:hover {
     background-color: limegreen;
 }
 
