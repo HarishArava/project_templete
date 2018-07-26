@@ -1,8 +1,13 @@
+body {
+	font-family: Arial;
+}
+
 .nav1{
 	margin: 0;
 	background-color: black;
 	padding: 5px;
 	overflow: hidden;
+	padding-right: 20%;
 }
 
 a {
@@ -11,30 +16,42 @@ a {
 	float: right;
 	 text-decoration: none;
 	 display: block;
-	 padding-left: 50px;
+	 padding: 15px 15px 15px 15px;
+}
+
+.nav1-a { 
+	padding: 3px 15px 3px 15px;
+	font-size: 15px;
 
 }
 
-#q{
-	padding-right: 300px;
+.logo-header{
+	margin-left: 30%;
+	margin-right: 30%;
+
 }
 
-.hd{
-	color: green;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 30px;
-	margin: 0;
-	letter-spacing: 10px;
+.main-header {
+	margin: 0 auto;
+	width: 80%;
 }
 
 .nav2{
-    margin: 0;
 	background-color: black;
-	padding: 15px;
+	padding-top: 0;
 	overflow: hidden;
+	padding-right: 10%;
+	padding-left:10%;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
 }
 
-#pl{
-	padding-right: 100px;
+.active {
+	background-color: limegreen;
+
+}
+
+.last{
+padding-right:10%;
 }
