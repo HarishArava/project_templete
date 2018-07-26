@@ -34,6 +34,10 @@ a {
     width: 80%;
 }
 
+.main-header img{
+    width: 500px;
+}
+
 .nav2 {
     margin: 0 auto;
     background-color: black;
@@ -88,29 +92,8 @@ a {
 .iconOneDiv {
     float: left;
     width: 20%;
-    padding: 0 20px;
-    text-align: center;
-}
-
-.iconTwoDiv {
-    float: left;
-    width: 20%;
-    padding: 0 20px;
-    text-align: center;
-}
-
-.iconThreeDiv {
-    float: left;
-    width: 20%;
-    padding: 0 20px;
-    text-align: center;
-}
-
-.iconFourDiv {
-    float: left;
-    width: 20%;
-    text-align: center;
     padding: 0 20px 10%;
+    text-align: center;
 }
 
 .h3-color {
