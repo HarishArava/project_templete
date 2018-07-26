@@ -1,0 +1,40 @@
+.nav1{
+	margin: 0;
+	background-color: black;
+	padding: 5px;
+	overflow: hidden;
+}
+
+a {
+	color: white;
+	text-align: center;
+	float: right;
+	 text-decoration: none;
+	 display: block;
+	 padding-left: 50px;
+
+}
+
+#q{
+	padding-right: 300px;
+}
+
+.hd{
+	color: green;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 30px;
+	margin: 0;
+	letter-spacing: 10px;
+}
+
+.nav2{
+    margin: 0;
+	background-color: black;
+	padding: 15px;
+	overflow: hidden;
+}
+
+#pl{
+	padding-right: 100px;
+}
