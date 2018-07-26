@@ -6,13 +6,13 @@ body {
     margin: 0;
     background-color: black;
     overflow: hidden;
-    padding: 5px 20% 5px 5px;
+    padding-left: 53%;
 }
 
 a {
     color: white;
     text-align: center;
-    float: right;
+    float: left;
     text-decoration: none;
     display: block;
     padding: 15px;
@@ -21,6 +21,7 @@ a {
 .nav1-a {
     padding: 3px 15px 3px 15px;
     font-size: 15px;
+
 }
 
 .logo-header {
@@ -34,6 +35,7 @@ a {
 }
 
 .nav2 {
+    margin: 0 auto;
     background-color: black;
     padding-top: 0;
     overflow: hidden;
@@ -41,7 +43,7 @@ a {
     padding-left: 16%;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 auto;
+
 }
 
 .active {
@@ -52,15 +54,15 @@ a {
     background-color: limegreen;
 }
 
-.nav1-margin-last{
-    margin-right:15%;
-}
+/*.nav1-margin-last{*/
+/*margin-right:15%;*/
+/*}*/
 
-.nav1-margin-first{
-    margin-left:15%;
-}
+/*.nav1-margin-first{*/
+/*margin-left:15%;*/
+/*}*/
 
-.green-background{
+.green-background {
     background-image: url("../img/background.png");
     color: #fff;
     margin: 0 auto;
@@ -70,13 +72,13 @@ a {
     padding: 20px 100px 80px;
 }
 
-.text-green-background{
+.text-green-background {
     float: left;
     width: 60%;
     font-size: 20px;
 }
 
-.green-background img{
+.green-background img {
     height: 328px;
     width: 421px;
     z-index: 99;
@@ -84,28 +86,80 @@ a {
     padding-left: 30px;
 }
 
-.main-section{
+.main-section {
+    margin: 5% auto;
     clear: both;
+    width: 80%;
+
+}
+
+.iconOneDiv {
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.iconTwoDiv {
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.iconThreeDiv {
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.iconFourDiv {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 0 20px 10%;
+}
+
+.h3-color {
+    color: limegreen;
 }
 
 footer {
-	
-	height: 100px;
-	background-color: #000;
-	color: #FFF;
-	margin: 0 auto;
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+    margin: 0 auto;
 }
 
 .footer-text {
-	width: 100%;
-	padding: 40px 0;
-	display: inline-block;
-	text-align: center;
+    width: 100%;
+    padding: 40px 0;
+    display: inline-block;
+    text-align: center;
 }
 
-.foot1-section{
-	float: left;
-    width: 33.33%;
+.foot-section {
+    padding: 3% 7% 0 7%;
+    background-image: url("../img/last_background.jpg");
+    clear: both;
+}
+
+.foot1-section {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.foot2-section {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.foot3-section {
+    float: right;
+    width: 30%;
     padding: 5px;
 }
 
