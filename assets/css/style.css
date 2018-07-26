@@ -54,14 +54,6 @@ a {
     background-color: limegreen;
 }
 
-/*.nav1-margin-last{*/
-/*margin-right:15%;*/
-/*}*/
-
-/*.nav1-margin-first{*/
-/*margin-left:15%;*/
-/*}*/
-
 .green-background {
     background-image: url("../img/background.png");
     color: #fff;
@@ -125,6 +117,10 @@ a {
     color: limegreen;
 }
 
+.foot-section ul{
+    list-style-type: none;
+}
+
 footer {
     height: 100px;
     background-color: #000;
@@ -140,27 +136,34 @@ footer {
 }
 
 .foot-section {
-    padding: 3% 7% 0 7%;
+    padding: 3% auto;
     background-image: url("../img/last_background.jpg");
     clear: both;
 }
 
 .foot1-section {
     float: left;
-    width: 30%;
+    width: 32%;
     padding: 5px;
+    text-align: center;
 }
 
 .foot2-section {
     float: left;
-    width: 30%;
+    width: 32%;
     padding: 5px;
+    text-align: center;
 }
 
 .foot3-section {
-    float: right;
-    width: 30%;
+    float: left;
+    width: 32%;
     padding: 5px;
+    text-align: center;
+}
+
+.clearfix{
+    padding-right: 50px;
 }
 
 .clearfix::after {
