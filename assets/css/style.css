@@ -1,57 +1,83 @@
 body {
-	font-family: Arial;
+    font-family: Arial, serif;
 }
 
-.nav1{
-	margin: 0;
-	background-color: black;
-	padding: 5px;
-	overflow: hidden;
-	padding-right: 20%;
+.nav1 {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+    padding: 5px 20% 5px 5px;
 }
 
 a {
-	color: white;
-	text-align: center;
-	float: right;
-	 text-decoration: none;
-	 display: block;
-	 padding: 15px 15px 15px 15px;
+    color: white;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
 }
 
-.nav1-a { 
-	padding: 3px 15px 3px 15px;
-	font-size: 15px;
+.nav1-a {
+    padding: 3px 15px 3px 15px;
+    font-size: 15px;
 
 }
 
-.logo-header{
-	margin-left: 30%;
-	margin-right: 30%;
-
+.logo-header {
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .main-header {
-	margin: 0 auto;
-	width: 80%;
+    margin: 0 auto;
+    width: 80%;
 }
 
-.nav2{
-	background-color: black;
-	padding-top: 0;
-	overflow: hidden;
-	padding-right: 10%;
-	padding-left:10%;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 0 auto;
+.nav2 {
+    background-color: black;
+    padding-top: 0;
+    overflow: hidden;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
 }
 
 .active {
-	background-color: limegreen;
+    background-color: limegreen;
 
 }
 
-.last{
-padding-right:10%;
+.last {
+    padding-right: 10%;
+}
+
+.green-background{
+    background-image: url("../img/background.png");
+    color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+    height: 310px;
+    padding: 20px 100px 80px;
+}
+
+.text-green-background{
+    float: left;
+    width: 60%;
+    font-size: 20px;
+}
+
+.green-background img{
+    height: 328px;
+    width: 421px;
+    z-index: 99;
+    display: block;
+    padding-left: 30px;
+}
+
+.main-section{
+    clear: both;
 }
