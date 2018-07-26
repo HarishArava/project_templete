@@ -21,7 +21,6 @@ a {
 .nav1-a {
     padding: 3px 15px 3px 15px;
     font-size: 15px;
-
 }
 
 .logo-header {
@@ -47,11 +46,18 @@ a {
 
 .active {
     background-color: limegreen;
-
 }
 
-.last {
-    padding-right: 10%;
+.hover-color:hover {
+    background-color: limegreen;
+}
+
+.nav1-margin-last{
+    margin-right:15%;
+}
+
+.nav1-margin-first{
+    margin-left:15%;
 }
 
 .green-background{
@@ -80,4 +86,31 @@ a {
 
 .main-section{
     clear: both;
+}
+
+footer {
+	
+	height: 100px;
+	background-color: #000;
+	color: #FFF;
+	margin: 0 auto;
+}
+
+.footer-text {
+	width: 100%;
+	padding: 40px 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.foot1-section{
+	float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
